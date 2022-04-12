@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+  }
+
+#display {
+    width: 100%;
+    height: 45vh;
+    overflow: auto;
+    padding-bottom: 15px;
+
+  }
+
+#keyboard,
+#keyboardtwo {
+    width: 100vw;
+    height: 50vh;
+    bottom: 0px;
+    padding-bottom: 20px;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 23px;
+    background-image: linear-gradient(to right top, #1b4584, #003964, #002b44, #011b25, #000608);  }
+
+.row {
+    width: 100%;
+    margin: 4px 2px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.key {
+    margin: 2px 0;
+    padding: 15px 15px;
+    width: 5%;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    color: #000000;
+    background-image: radial-gradient(
+      circle,
+      #d6cad2,
+      #cdc3cb,
+      #c5bbc3,
+      #bcb4bc,
+      #b4adb4
+    );
+  }
+
+.num {
+    padding: 7px 7px;
+  }
+
+.dark {
+    color: #f8f9fd;
+    background-image: linear-gradient(to right top, #371713, #133729, #002653, #001b2c, #1a454a);  }
+
+.space {
+    width: 34%;
+  }
+.last {
+    width: 16%;
+  }
+
+.rowfour {
+    width: 10%;
+  }
+
+#keyboardtwo {
+    background-image: linear-gradient(to right top, #133729, #1a454a, #20565d, #276870, #133729, #1a454a, #1a454a, #1a454a, #371713, #1a454a, #276870, #276870)
+    ;}
